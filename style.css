@@ -1,0 +1,121 @@
+body{
+    margin: 0px;
+    padding:0px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main{
+    height: 400px;
+    width: 270px;
+    border:2px solid  green;
+    border-radius: 20px;
+   text-align: center;
+   line-height: 44px;
+   vertical-align: middle;
+}
+.ancr{
+    color: rgb(255, 0, 0);
+}
+.main:hover{
+border: 1px solid black ;
+box-shadow: 0px 1px 0px 10px rgb(39, 83, 228);
+}
+.main,input{
+    border: 2px solid rgb(47, 137, 255);
+    border-radius:10px;
+}
+.main,input:hover{
+    border: 1px solid black ;
+box-shadow: 0px 1px 0px 5px rgb(235, 76, 103);
+border-radius: 20px;
+
+}
+.main,p{
+    color: white;
+
+}
+.btn{
+  color: white;
+  background-color: black;
+}
+.btn:hover{
+    background-color: rgb(0, 0, 0);
+}
+.googlebutton{
+    width:200px;
+    height:25px;
+    display: flex;
+    color: black;
+    border-radius:10px;
+   
+}
+.secondmain{
+    margin:auto;
+width: 180px;
+height: 30px;
+}
+.googlebutton p {
+    color:black;
+    line-height:   0px;
+    margin: 9px;
+}
+.secondmain img{
+    border-radius:20px;
+}
+
+.fb{
+    width:200px;
+    height:25px;
+display:flex ;
+    color: black;
+    border-radius:10px;
+    background-color: rgb(45, 45, 173);
+    color: white;
+   
+}
+.thirdmain{
+    margin:auto;
+width: 180px;
+height: 30px;
+}
+.fb p {
+    color:black;
+    line-height:0px;
+    color: white;
+    margin: 9px;
+}
+.thirdmain img{
+    border-radius:20px;
+    
+}
+.styl{
+height: 400px;
+width: 270px;
+border:2px solid  green;
+border-radius: 20px;
+text-align: center;
+line-height: 75px;
+vertical-align: middle;
+}
+
+.styl:hover{
+    border: 1px solid black ;
+    box-shadow: 0px 1px 0px 10px rgb(120, 138, 197);
+    }
+    .styl,input{
+        border: 2px solid rgb(112, 166, 236);
+        border-radius:10px;
+    }
+    .styl,input:hover{
+        border: 1px solid black ;
+    box-shadow: 0px 1px 0px 5px rgb(229, 134, 150);
+    border-radius: 20px;
+    
+    }
+    .styl,p{
+        color: white;
+    
+    }
